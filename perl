@@ -1,4 +1,5 @@
 яяяяяя
+262626
 
 my @sieve=2..$n;
 while(@sieve and $sieve[0]==0)
