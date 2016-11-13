@@ -9,18 +9,18 @@ public class PrimitiveConvertor {
         primitiveConvertor.charToInt('e');
 
     }
-    public void floatToChar(float f) {
-        char c = (char) f;
-        System.out.println("Input float value is " + f + ". Output char value is " + c);
+    public void floatToChar(float float1) {
+        char char1 = (char) float1;
+        System.out.println("Input float value is " + float1 + ". Output char value is " + char1);
     }
 
-    public void intToChar(int i) {
-        char c = (char) i;
-        System.out.println("Input int value is " + i + ". Output char value is " + c);
+    public void intToChar(int int1) {
+        char char1 = (char) int1;
+        System.out.println("Input int value is " + int1 + ". Output char value is " + char1);
     }
 
-    public void charToInt(char c) {
-        int i = (int) c;
-        System.out.println("Input char value is " + c + ". Output int value is " + i);
+    public void charToInt(char char1) {
+        int int1 = (int) char1;
+        System.out.println("Input char value is " + char1 + ". Output int value is " + int1);
     }
 }
