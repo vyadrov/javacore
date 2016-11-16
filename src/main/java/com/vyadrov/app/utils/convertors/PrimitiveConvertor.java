@@ -2,13 +2,6 @@ package com.vyadrov.app.utils.convertors;
 
 public class PrimitiveConvertor {
 
-    public static void main(String[] args) {
-        PrimitiveConvertor primitiveConvertor = new PrimitiveConvertor();
-        primitiveConvertor.floatToChar(35.69f);
-        primitiveConvertor.intToChar(53);
-        primitiveConvertor.charToInt('e');
-
-    }
     public void floatToChar(float float1) {
         char char1 = (char) float1;
         System.out.println("Input float value is " + float1 + ". Output char value is " + char1);
