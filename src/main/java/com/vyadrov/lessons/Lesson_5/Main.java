@@ -6,6 +6,7 @@ public class Main {
         Bank privatbank = new Bank("Privatbank");
         Bank pumb = new Bank("PUMB");
 
+
         /* oshadbank.showName();
         privatbank.showName();
         pumb.showName();

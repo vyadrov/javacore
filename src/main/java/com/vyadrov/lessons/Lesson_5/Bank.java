@@ -26,16 +26,16 @@ public class Bank {
         if (person.getAge()>=18 && person.getAge()<70) {
             score++;
         }
-        if (person.isWorkFlag()==true) {
+        if (person.isWorkFlag() == true) {
             score++;
         }
-        if (person.getSalary()>4000) {
+        if (person.getSalary() > 4000) {
             score++;
         }
         if (person.isFeedbackFlag()) {
             score++;
         }
-        if (person.getWorkingTime()>=2) {
+        if (person.getWorkingTime() >= 2) {
             score++;
         }
 
