@@ -31,10 +31,14 @@ public class Homework_5 {
     public static double biggerValue(double a, double b) {
         if (a > b) {
             System.out.println("Value a is bigger than value b");
+            return a;
+        } else if (a == b){
+            System.out.println("Values are equals.");
+            return (a = b);
         } else {
             System.out.println("Value b is bigger than value a");
+            return b;
         }
-            return a;
     }
     public static double rightAngledTriangleCheck(double a, double b){
         double c = Math.sqrt(a * a + b * b);
