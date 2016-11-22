@@ -2,23 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d558496-e59b-4c25-8d4b-a2a593dfc103" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/vyadrov/app/utils/homework/lesson_5/ComparisonOperations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/homework/addition.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/homework/division.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/homework/involution.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/homework/multiplication.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/homework/rightAngledTriangle.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/homework/sqrt.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/homework/subtraction.csv" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/vyadrov/app/utils/homework/lesson_5/Homework_5.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vyadrov/app/utils/homework/lesson_5/Homework_5.java" afterPath="$PROJECT_DIR$/src/main/java/com/vyadrov/app/utils/homework/lesson_5/CalculateOperations.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/vyadrov/app/utils/homework/lesson_5/MenuLesson5.class" afterPath="$PROJECT_DIR$/target/classes/com/vyadrov/app/utils/homework/lesson_5/MenuLesson5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/vyadrov/homework/lesson_5/TestHomeworkLesson5.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vyadrov/homework/lesson_5/TestHomeworkLesson5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/vyadrov/homework/lesson_6/DataDrivenTests.class" afterPath="$PROJECT_DIR$/target/test-classes/com/vyadrov/homework/lesson_6/DataDrivenTests.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vyadrov/app/utils/homework/lesson_5/MenuLesson5.java" afterPath="$PROJECT_DIR$/src/main/java/com/vyadrov/app/utils/homework/lesson_5/MenuLesson5.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/vyadrov/homework/lesson_5/TestHomeworkLesson5.java" afterPath="$PROJECT_DIR$/src/test/java/com/vyadrov/homework/lesson_5/TestHomeworkLesson5.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/vyadrov/homework/lesson_6/DataDrivenTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/vyadrov/homework/lesson_6/DataDrivenTests.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/resources/homework/addition.csv" afterPath="$PROJECT_DIR$/src/test/resources/homework/lesson_6/addition.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/resources/homework/biggerCircleArea.csv" afterPath="$PROJECT_DIR$/src/test/resources/homework/lesson_6/biggerCircleArea.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/resources/homework/biggerValue.csv" afterPath="$PROJECT_DIR$/src/test/resources/homework/lesson_6/biggerValue.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/resources/homework/circleArea.csv" afterPath="$PROJECT_DIR$/src/test/resources/homework/lesson_6/circleArea.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/resources/homework/division.csv" afterPath="$PROJECT_DIR$/src/test/resources/homework/lesson_6/division.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/resources/homework/involution.csv" afterPath="$PROJECT_DIR$/src/test/resources/homework/lesson_6/involution.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/resources/homework/multiplication.csv" afterPath="$PROJECT_DIR$/src/test/resources/homework/lesson_6/multiplication.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/resources/homework/rightAngledTriangle.csv" afterPath="$PROJECT_DIR$/src/test/resources/homework/lesson_6/rightAngledTriangle.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/resources/homework/sqrt.csv" afterPath="$PROJECT_DIR$/src/test/resources/homework/lesson_6/sqrt.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/resources/homework/subtraction.csv" afterPath="$PROJECT_DIR$/src/test/resources/homework/lesson_6/subtraction.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/resources/testdata.csv" afterPath="$PROJECT_DIR$/src/test/resources/classwork/lesson_6/testdata.csv" />
     </list>
     <ignored path="javacore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,7 +67,7 @@
         </entry>
       </file>
       <file leaf-file-name="involution.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/homework/involution.csv">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/homework/lesson_6/involution.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
@@ -107,7 +102,7 @@
         </entry>
       </file>
       <file leaf-file-name="division.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/homework/division.csv">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/homework/lesson_6/division.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
               <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
@@ -117,7 +112,7 @@
         </entry>
       </file>
       <file leaf-file-name="multiplication.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/homework/multiplication.csv">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/homework/lesson_6/multiplication.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
@@ -157,7 +152,7 @@
         </entry>
       </file>
       <file leaf-file-name="circleArea.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/homework/circleArea.csv">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/homework/lesson_6/circleArea.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
               <caret line="1" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="6" />
@@ -325,32 +320,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javacore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javacore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="homework" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -597,6 +566,10 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/classwork/lesson_6" />
+      <recent name="$PROJECT_DIR$/src/test/resources/homework/lesson_6" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.DataDrivenTests">
@@ -1205,7 +1178,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testdata.csv">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/classwork/lesson_6/testdata.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="18" />
@@ -1222,7 +1195,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/homework/biggerCircleArea" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/homework/circleArea.csv">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/homework/lesson_6/circleArea.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="6" />
@@ -1230,7 +1203,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/homework/biggerValue.csv">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/homework/lesson_6/biggerValue.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
@@ -1262,7 +1235,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/homework/rightAngledTriangle.csv">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/homework/lesson_6/rightAngledTriangle.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
@@ -1278,7 +1251,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/homework/biggerCircleArea.csv">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/homework/lesson_6/biggerCircleArea.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
@@ -1286,7 +1259,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/homework/addition.csv">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/homework/lesson_6/addition.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
@@ -1294,7 +1267,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/homework/involution.csv">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/homework/lesson_6/involution.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
@@ -1302,7 +1275,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/homework/sqrt.csv">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/homework/lesson_6/sqrt.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
@@ -1310,7 +1283,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/homework/subtraction.csv">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/homework/lesson_6/subtraction.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
@@ -1318,7 +1291,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/homework/multiplication.csv">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/homework/lesson_6/multiplication.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
@@ -1326,7 +1299,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/homework/division.csv">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/homework/lesson_6/division.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
