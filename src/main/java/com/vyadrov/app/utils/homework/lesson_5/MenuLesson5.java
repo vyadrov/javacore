@@ -1,7 +1,5 @@
 package com.vyadrov.app.utils.homework.lesson_5;
 
-import com.vyadrov.app.utils.homework.lesson_5.Homework_5;
-
 import java.util.Scanner;
 
 public class MenuLesson5 {
@@ -22,14 +20,14 @@ public class MenuLesson5 {
             Scanner scanner2 = new Scanner(System.in);
             System.out.println("Please enter radius for second circle");
             double radius2 = scanner2.nextDouble();
-            Homework_5.calculateBigger(radius1, radius2);
+            ComparisonOperations.calculateBigger(radius1, radius2);
         } else if (inputNumber == 2) {
             Scanner scanner = new Scanner(System.in);
             System.out.println("Please enter circle radius");
             double radius = scanner.nextDouble();
             System.out.println("Please enter pi value");
             double pi = scanner.nextDouble();
-            Homework_5.calculate(pi, radius);
+            CalculateOperations.calculate(pi, radius);
         } else if (inputNumber == 3) {
             Scanner scanner5 = new Scanner(System.in);
             System.out.println("Please enter value a:");
@@ -37,7 +35,7 @@ public class MenuLesson5 {
             Scanner scanner6 = new Scanner(System.in);
             System.out.println("Please enter value b:");
             double b = scanner6.nextDouble();
-            Homework_5.biggerValue(a, b);
+            ComparisonOperations.biggerValue(a, b);
         } else if (inputNumber == 4) {
             Scanner scanner3 = new Scanner(System.in);
             System.out.println("Please enter cathetus a:");
@@ -45,7 +43,7 @@ public class MenuLesson5 {
             Scanner scanner4 = new Scanner(System.in);
             System.out.println("Please enter cathetus b:");
             double b = scanner4.nextDouble();
-            Homework_5.rightAngledTriangleCheck(a, b);
+            CalculateOperations.rightAngledTriangleCheck(a, b);
         } else if (inputNumber == 0){
             System.out.println("Bye!");
         } else {
