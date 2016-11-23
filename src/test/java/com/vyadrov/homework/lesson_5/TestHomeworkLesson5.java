@@ -59,7 +59,7 @@ public class TestHomeworkLesson5 {
     }
     @Test
     public void TestcalculateBigger1() {
-        double PI = 3.14d, radius1 = 10, radius2 = 1, circleArea1 = 314;
+        double PI = 3.14d, radius1 = 1, radius2 = 10, circleArea1 = 314;
         double actualresult4 = ComparisonOperations.calculateBigger(radius1, radius2);
         Assert.assertEquals(circleArea1, actualresult4, 1e-9);
     }
