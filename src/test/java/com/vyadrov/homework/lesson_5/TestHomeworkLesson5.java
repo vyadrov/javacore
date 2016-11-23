@@ -3,6 +3,7 @@ package com.vyadrov.homework.lesson_5;
 
 import com.vyadrov.app.utils.homework.lesson_5.ComparisonOperations;
 import com.vyadrov.app.utils.homework.lesson_5.CalculateOperations;
+import com.vyadrov.app.utils.homework.lesson_5.MenuLesson5;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -14,13 +15,25 @@ public class TestHomeworkLesson5 {
         Assert.assertEquals(Double.doubleToLongBits(c), Double.doubleToLongBits(actualResult));
     }
     @Test
-    public void TesrightAngledTriangleCheckNotNull(){
+    public void TestLesson5Class1() {
+        CalculateOperations calculate = new CalculateOperations();
+    }
+    @Test
+    public void TestLesson5Class2() {
+        ComparisonOperations compare = new ComparisonOperations();
+    }
+    @Test
+    public void TestLesson5Class3() {
+        MenuLesson5 menu = new MenuLesson5();
+    }
+    @Test
+    public void TestrightAngledTriangleCheckNotNull(){
         double a = 3, b = 4, c = 5;
         double actual = CalculateOperations.rightAngledTriangleCheck(a, b);
         Assert.assertNotNull(a);
     }
     @Test
-    public void TesrightAngledTriangleCheckFalse() {
+    public void TestrightAngledTriangleCheckFalse() {
         double a = 3, b = 4, c = 5;
         double actual1 = CalculateOperations.rightAngledTriangleCheck(a, b);
         Assert.assertFalse(c == 9);
