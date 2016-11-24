@@ -12,26 +12,36 @@ public class CalculateOperations {
 
     }
 
-    public static double rightAngledTriangleCheck(double a, double b){
-        double c = Math.sqrt(a * a + b * b);
-        if (c > a && c > b && a > 0 && b > 0) {
-            System.out.println("Hypotenuse of your right-angled triangle is:" + c);
-        } else {
-            if (a <= 0 && b <= 0) {
-                System.out.println("Cathetus a & b are contain negative or zero values. Please enter correct values");
-            } else {
-                if (a <= 0) {
-                    System.out.println("Cathetus a contains negative or zero alue. Please enter correct value");
-                } else {
-                    if (b <= 0 ){
-                        System.out.println("Cathetus b contains negative or zero value. Please enter correct value");
-                    }
+    public static double rightAngledTriangleCheck(double a, double b, double c){
+
+        if (a > 0 && b > 0 && c > 0) {
+            if (c > a && c > b) {
+                if(c == Math.sqrt(a * a + b * b)) {
+                    System.out.println("This triangle is right-angled");
+                    return c;
                 }
-            }
-        }
+                else System.out.println("This triangle is NOT right-angled");
+                return c;
+            } else if (b > a && b > c) {
+                if (b == Math.sqrt(a * a + c * c)) {
+                    System.out.println("This triangle is right-angled");
+                    return b;
+                }
+                else System.out.println("This triangle is NOT right-angled");
+                return b;
+            } else if (a > c && a > b) {
+                        if(a == Math.sqrt(b * b + c * c)) {
+                            System.out.println("This triangle is right-angled");
+                            return a;
+                        }
+                        else System.out.println("This triangle is NOT right-angled");
+                        return a;
+                    }
 
-
-
-        return c;
+                    }
+        else System.out.println("You entered wrong values");
+        return 0;
     }
-}
+
+
+            }

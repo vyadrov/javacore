@@ -4,6 +4,8 @@ package com.vyadrov.homework.lesson_5;
 import com.vyadrov.app.utils.homework.lesson_5.ComparisonOperations;
 import com.vyadrov.app.utils.homework.lesson_5.CalculateOperations;
 import com.vyadrov.app.utils.homework.lesson_5.MenuLesson5;
+import junitparams.FileParameters;
+import junitparams.mappers.CsvWithHeaderMapper;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -11,7 +13,7 @@ public class TestHomeworkLesson5 {
     @Test
     public void TesrightAngledTriangleCheck(){
         double a = 3, b = 4, c = 5;
-        double actualResult = CalculateOperations.rightAngledTriangleCheck(a,b);
+        double actualResult = CalculateOperations.rightAngledTriangleCheck(a,b, c);
         Assert.assertEquals(Double.doubleToLongBits(c), Double.doubleToLongBits(actualResult));
     }
     @Test
@@ -26,17 +28,36 @@ public class TestHomeworkLesson5 {
     public void TestLesson5Class3() {
         MenuLesson5 menu = new MenuLesson5();
     }
+
     @Test
-    public void TestrightAngledTriangleCheckNotNull(){
+    public void TestrightAngledTriangleCheckC() {
         double a = 3, b = 4, c = 5;
-        double actual = CalculateOperations.rightAngledTriangleCheck(a, b);
-        Assert.assertNotNull(a);
+        double actual = CalculateOperations.rightAngledTriangleCheck(a, b, c);
+        Assert.assertEquals(c,actual, 1e-4);
     }
     @Test
-    public void TestrightAngledTriangleCheckFalse() {
-        double a = 3, b = 4, c = 5;
-        double actual1 = CalculateOperations.rightAngledTriangleCheck(a, b);
-        Assert.assertFalse(c == 9);
+    public void TestrightAngledTriangleCheckA() {
+        double a = 5, b = 4, c = 3;
+        double actual = CalculateOperations.rightAngledTriangleCheck(a, b, c);
+        Assert.assertEquals(a,actual, 1e-4);
+    }
+    @Test
+    public void TestrightAngledTriangleCheckB() {
+        double a = 3, b = 5, c = 4;
+        double actual = CalculateOperations.rightAngledTriangleCheck(a, b, c);
+        Assert.assertEquals(b,actual, 1e-4);
+    }
+    @Test
+    public void TestrightAngledTriangleCheck1() {
+        double a = 9, b = 14, c = 3;
+        double actual = CalculateOperations.rightAngledTriangleCheck(a, b, c);
+        Assert.assertEquals(a,actual, 1e-4);
+    }
+    @Test
+    public void TestrightAngledTriangleCheck2() {
+        double a = 5, b = -4, c = 3;
+        double actual = CalculateOperations.rightAngledTriangleCheck(a, b, c);
+        Assert.assertEquals(0,actual, 1e-4);
     }
     @Test
     public void Testcalculate(){
@@ -45,12 +66,7 @@ public class TestHomeworkLesson5 {
         Assert.assertEquals(circleArea, actualResult2, 1e-9);
 
     }
-    @Test
-    public void TestcalculateFalse() {
-        double pi = 3, radius = 2, circleArea = 12;
-        double actual2 = CalculateOperations.calculate(pi, radius);
-        Assert.assertFalse(circleArea == 10);
-    }
+
     @Test
     public void TestcalculateBigger() {
         double PI = 3.14d, radius1 = 2, radius2 = 1, circleArea2 = 12.56;
@@ -80,6 +96,24 @@ public class TestHomeworkLesson5 {
         double PI = 3.14d, radius1 = 10, radius2 = 1, circleArea2 = 314;
         double actual3 = ComparisonOperations.calculateBigger(radius1, radius2);
         Assert.assertFalse(circleArea2 == 28);
+    }
+    @Test
+    public void biggerNumber2() {
+        int a = -18, b = 3;
+        int actualResult = ComparisonOperations.biggerValue(a,b);
+        Assert.assertEquals(b, actualResult);
+    }
+    @Test
+    public void biggerNumber1() {
+        int a = 18, b = 3;
+        int actualResult = ComparisonOperations.biggerValue(a,b);
+        Assert.assertEquals(a, actualResult);
+    }
+    @Test
+    public void biggerNumber0() {
+        int a = 18, b = 18;
+        int actualResult = ComparisonOperations.biggerValue(a,b);
+        Assert.assertEquals(a, actualResult);
     }
 
 }

@@ -7,6 +7,7 @@ import junitparams.JUnitParamsRunner;
 import junitparams.mappers.CsvWithHeaderMapper;
 import org.junit.Assert;
 import org.junit.FixMethodOrder;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
@@ -27,14 +28,14 @@ public class DataDrivenTests {
     }
     @Test
     @FileParameters(value = "src/test/resources/homework/lesson_6/biggerValue.csv", mapper = CsvWithHeaderMapper.class)
-    public void biggerValueTest(double agrA, double agrB, double expOut) {
-        double actualresult = ComparisonOperations.biggerValue(agrA, agrB);
+    public void biggerValueTest(int agrA, int agrB, int expOut) {
+        int actualresult = ComparisonOperations.biggerValue(agrA, agrB);
         Assert.assertEquals(expOut, actualresult, 1e-5);
     }
     @Test
     @FileParameters(value = "src/test/resources/homework/lesson_6/rightAngledTriangle.csv", mapper = CsvWithHeaderMapper.class)
-    public void rightAngledTriangleTest(double agrA, double agrB, double expOut) {
-        double actualresult = CalculateOperations.rightAngledTriangleCheck(agrA, agrB);
+    public void rightAngledTriangleTest(double agrA, double agrB, double agrC, double expOut) {
+        double actualresult = CalculateOperations.rightAngledTriangleCheck(agrA, agrB, agrC);
         Assert.assertEquals(expOut, actualresult, 1e-5);
     }
     @Test

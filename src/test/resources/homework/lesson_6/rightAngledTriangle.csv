@@ -1,2 +1,4 @@
-agrR1, agrR2, expOut
-3,4,5
+agrA, agrB, AgrC, expOut
+3,4,5,5
+3,5,4,5
+5,3,4,5

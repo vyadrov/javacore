@@ -20,13 +20,13 @@ public class ComparisonOperations {
         return circleArea2;
 
     }
-    public static double biggerValue(double a, double b) {
+    public static int biggerValue(int a, int b) {
         if (a > b) {
             System.out.println("Value a is bigger than value b");
             return a;
         } else if (a == b){
             System.out.println("Values are equals.");
-            return (a = b);
+            return a;
         } else {
             System.out.println("Value b is bigger than value a");
             return b;

@@ -31,19 +31,22 @@ public class MenuLesson5 {
         } else if (inputNumber == 3) {
             Scanner scanner5 = new Scanner(System.in);
             System.out.println("Please enter value a:");
-            double a = scanner5.nextDouble();
+            int a = scanner5.nextInt();
             Scanner scanner6 = new Scanner(System.in);
             System.out.println("Please enter value b:");
-            double b = scanner6.nextDouble();
+            int b = scanner6.nextInt();
             ComparisonOperations.biggerValue(a, b);
         } else if (inputNumber == 4) {
             Scanner scanner3 = new Scanner(System.in);
-            System.out.println("Please enter cathetus a:");
+            System.out.println("Please enter side a:");
             double a = scanner3.nextDouble();
             Scanner scanner4 = new Scanner(System.in);
-            System.out.println("Please enter cathetus b:");
+            System.out.println("Please enter side b:");
             double b = scanner4.nextDouble();
-            CalculateOperations.rightAngledTriangleCheck(a, b);
+            Scanner scanner5 = new Scanner(System.in);
+            System.out.println("Please enter side c:");
+            double c = scanner5.nextDouble();
+            CalculateOperations.rightAngledTriangleCheck(a, b, c);
         } else if (inputNumber == 0){
             System.out.println("Bye!");
         } else {
