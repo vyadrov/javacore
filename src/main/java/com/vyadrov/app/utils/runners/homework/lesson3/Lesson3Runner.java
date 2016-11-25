@@ -1,4 +1,4 @@
-package com.vyadrov.app.utils.runners.homework.lesson_3;
+package com.vyadrov.app.utils.runners.homework.lesson3;
 import com.vyadrov.app.utils.convertors.PrimitiveConvertor;
 
 public class Lesson3Runner {

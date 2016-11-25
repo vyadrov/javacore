@@ -1,4 +1,4 @@
-package com.vyadrov.app.utils.homework.lesson_5;
+package com.vyadrov.app.utils.homework.lesson5;
 
 import java.util.Scanner;
 

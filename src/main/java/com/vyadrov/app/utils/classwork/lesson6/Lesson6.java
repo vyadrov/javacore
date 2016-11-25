@@ -1,6 +1,6 @@
-package com.vyadrov.app.utils.classwork.lesson_6;
+package com.vyadrov.app.utils.classwork.lesson6;
 
-import com.vyadrov.app.utils.homework.lesson_4.ArithmeticsOperations;
+import com.vyadrov.app.utils.homework.lesson4.ArithmeticsOperations;
 import junitparams.FileParameters;
 import junitparams.JUnitParamsRunner;
 import junitparams.mappers.CsvWithHeaderMapper;

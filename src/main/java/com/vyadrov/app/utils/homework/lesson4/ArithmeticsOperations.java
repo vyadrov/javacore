@@ -1,4 +1,4 @@
-package com.vyadrov.app.utils.homework.lesson_4;
+package com.vyadrov.app.utils.homework.lesson4;
 
 
 public class ArithmeticsOperations {

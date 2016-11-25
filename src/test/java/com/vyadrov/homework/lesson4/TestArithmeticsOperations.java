@@ -1,6 +1,6 @@
-package com.vyadrov.homework.lesson_4;
+package com.vyadrov.homework.lesson4;
 
-import com.vyadrov.app.utils.homework.lesson_4.ArithmeticsOperations;
+import com.vyadrov.app.utils.homework.lesson4.ArithmeticsOperations;
 import org.junit.Assert;
 import org.junit.Test;
 

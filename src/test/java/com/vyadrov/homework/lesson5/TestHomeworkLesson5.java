@@ -1,11 +1,9 @@
-package com.vyadrov.homework.lesson_5;
+package com.vyadrov.homework.lesson5;
 
 
-import com.vyadrov.app.utils.homework.lesson_5.ComparisonOperations;
-import com.vyadrov.app.utils.homework.lesson_5.CalculateOperations;
-import com.vyadrov.app.utils.homework.lesson_5.MenuLesson5;
-import junitparams.FileParameters;
-import junitparams.mappers.CsvWithHeaderMapper;
+import com.vyadrov.app.utils.homework.lesson5.ComparisonOperations;
+import com.vyadrov.app.utils.homework.lesson5.CalculateOperations;
+import com.vyadrov.app.utils.homework.lesson5.MenuLesson5;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -36,10 +34,22 @@ public class TestHomeworkLesson5 {
         Assert.assertEquals(c,actual, 1e-4);
     }
     @Test
+    public void TestrightAngledTriangleCheckbigger() {
+        double a = 3, b = 4, c = 9;
+        double actual = CalculateOperations.rightAngledTriangleCheck(a, b, c);
+        Assert.assertEquals(c,actual, 1e-4);
+    }
+    @Test
     public void TestrightAngledTriangleCheckA() {
         double a = 5, b = 4, c = 3;
         double actual = CalculateOperations.rightAngledTriangleCheck(a, b, c);
         Assert.assertEquals(a,actual, 1e-4);
+    }
+    @Test
+    public void TestrightAngledTriangleCheckAbigger() {
+        double a = 12, b = 4, c = 5;
+        double actual = CalculateOperations.rightAngledTriangleCheck(a, b, c);
+        Assert.assertEquals(c,actual, 1e-4);
     }
     @Test
     public void TestrightAngledTriangleCheckB() {

@@ -1,4 +1,4 @@
-package com.vyadrov.app.utils.classwork.lesson_3;
+package com.vyadrov.app.utils.classwork.lesson3;
 public class Lesson_3 {
     public static void main( String[] args ) {
         int sensor = 120;

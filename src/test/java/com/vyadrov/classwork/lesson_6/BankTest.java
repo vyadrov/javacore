@@ -1,7 +1,7 @@
 package com.vyadrov.classwork.lesson_6;
 
-import com.vyadrov.app.utils.classwork.lesson_5.Bank;
-import com.vyadrov.app.utils.classwork.lesson_5.Person;
+import com.vyadrov.app.utils.classwork.lesson5.Bank;
+import com.vyadrov.app.utils.classwork.lesson5.Person;
 import org.junit.*;
 import org.junit.runners.MethodSorters;
 

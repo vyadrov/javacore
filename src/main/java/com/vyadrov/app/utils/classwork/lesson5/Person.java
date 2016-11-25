@@ -1,4 +1,4 @@
-package com.vyadrov.app.utils.classwork.lesson_5;
+package com.vyadrov.app.utils.classwork.lesson5;
 
 public class Person {
     private int age, workingTime;
