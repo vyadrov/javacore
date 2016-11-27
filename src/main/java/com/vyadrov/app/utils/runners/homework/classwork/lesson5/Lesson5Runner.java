@@ -1,4 +1,4 @@
-package com.vyadrov.app.utils.runners.homework.lesson5;
+package com.vyadrov.app.utils.runners.homework.classwork.lesson5;
 
 import com.vyadrov.app.utils.homework.lesson5.MenuLesson5;
 
