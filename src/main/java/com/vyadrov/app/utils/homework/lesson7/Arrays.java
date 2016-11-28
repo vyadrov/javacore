@@ -7,7 +7,7 @@ public class Arrays {
         int[] a = new int[10];
         int i = 0;
         int b = 0;
-        for (i=0; i<10; i++) {
+        for (i =0; i<10; i++) {
             b=b+2;
             a[i] = b;
         }
@@ -20,7 +20,7 @@ public class Arrays {
     }
     public static void oddNumbersArray() {
         int a = 0;
-        for (int i = 0; i<=99; i++) {
+        for (int i = 0; i <= 99; i++) {
             if (i % 2 != 0) {
                 a++;
             }
@@ -52,17 +52,40 @@ public class Arrays {
         System.out.println();
         System.out.println("The number of even numbers in an array: " + b);
     }
+
     public static void minMaxElementsInArray() {
         Random random = new Random();
         int[] array = new int[15];
-        int max = array[0];
+
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(1000);
             System.out.print(array[i] + " ");
-            if (max < array[i])max = array[i];
         }
+        int max = array[0];
+        int min = array[0];
+            for (int i = 0; i < array.length ; i++) {
+                if (max < array[i]){
+                    max = array[i];
+                }
+                else if (min > array[i]) {
+                    min = array[i];
+                }
+            }
+
+
+
         System.out.println();
-        System.out.println("Maximum value in Array is:" + max);
+        System.out.println("Maximum value in Array is:" + max + "\n" +"Minimum value in Array is:" + min);
+    }
+    public static void multidimensionalArray() {
+        int[][] array = new int[8][5];
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                array[i][j] = (int)(Math.random()*90 + 10);
+                System.out.print(array[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 
 }
