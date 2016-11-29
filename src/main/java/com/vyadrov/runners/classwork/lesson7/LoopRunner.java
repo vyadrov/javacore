@@ -1,11 +1,13 @@
 package com.vyadrov.runners.classwork.lesson7;
 
+import com.vyadrov.app.utils.classwork.lesson7.Loops;
+
 /**
  * Created by vitalii on 25.11.2016.
  */
 public class LoopRunner {
     public static void main (String args[]) {
-        //Loops.counter(4, 2);
+        Loops.counter(4, 2);
 
         //Loops.counterTo10();
 
