@@ -1,4 +1,4 @@
-package com.vyadrov.app.utils.runners.homework.classwork.lesson7;
+package com.vyadrov.runners.classwork.lesson7;
 
 /**
  * Created by vitalii on 25.11.2016.

@@ -1,4 +1,4 @@
-package com.vyadrov.classwork.lesson_6;
+package com.vyadrov.classwork.lesson6;
 
 import com.vyadrov.app.utils.classwork.lesson5.Bank;
 import com.vyadrov.app.utils.classwork.lesson5.Person;
