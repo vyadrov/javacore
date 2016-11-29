@@ -1,6 +1,6 @@
 package com.vyadrov.app.utils.classwork.lesson6;
 
-import com.vyadrov.app.utils.homework.lesson4.ArithmeticsOperations;
+/*import com.vyadrov.app.utils.homework.lesson4.ArithmeticsOperations;
 import junitparams.FileParameters;
 import junitparams.JUnitParamsRunner;
 import junitparams.mappers.CsvWithHeaderMapper;
@@ -15,4 +15,4 @@ public class Lesson6 {
         Assert.assertEquals(expOut, ArithmeticsOperations.mult(agrA, agrB));
 
     }
-}
+}*/

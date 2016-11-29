@@ -4,18 +4,19 @@ import java.util.Random;
 
 public class Arrays {
     public static void arrayHorizontalVertical() {
-        int[] a = new int[10];
-        int i = 0;
-        int b = 0;
-        for (i =0; i<10; i++) {
-            b=b+2;
-            a[i] = b;
+        int[] array = new int[10];
+        for (int i = 2, b = 0; i <=20 ; i++) {
+            if (i%2==0) {
+                array[b] = i;
+                System.out.print(array[b] + " ");
+                b++;
+            }
         }
-        for (i = 0; i < 10; i++)
-            System.out.print(a[i] + " ");
         System.out.println();
-        for (i = 1; i < 10; i++)
-            System.out.println(a[i]);
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+
+        }
 
     }
     public static void oddNumbersArray() {
@@ -79,10 +80,20 @@ public class Arrays {
     }
     public static void multidimensionalArray() {
         int[][] array = new int[8][5];
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < 6; i++) {
             for (int j = 0; j < array[i].length; j++) {
                 array[i][j] = (int)(Math.random()*90 + 10);
                 System.out.print(array[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+    public static void rightSideFormatArray() {
+        int[][] array = new int[8][5];
+        for (int i = 0; i < 6; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                array[i][j] = (int)(Math.random()*999 + 1);
+                System.out.printf("%4d", array[i][j]);
             }
             System.out.println();
         }
