@@ -4,20 +4,36 @@ import java.util.Random;
 
 public class Arrays {
     public static void arrayHorizontalVertical() {
+<<<<<<< HEAD
         /*int a = 0;
+=======
+<<<<<<< HEAD
+        int[] array = new int[10];
+=======
+        int a = 0;
+>>>>>>> 0e260a3a0dc834bd5dac2ab21cd82f7ce90f3d8f
         for (int i = 2; i <=20; i++) {
             if (i%2==0) {
                 a++;
             }
+<<<<<<< HEAD
         }*/
         int[] array = new int[10];
+=======
+        }
+        int[] array = new int[a];
+>>>>>>> d853df1d277cf12764b97d72306ee7dd3cb304a1
+>>>>>>> 0e260a3a0dc834bd5dac2ab21cd82f7ce90f3d8f
         for (int i = 2, b = 0; i <=20 ; i++) {
             if (i%2==0) {
                 array[b] = i;
                 System.out.print(array[b] + " ");
                 b++;
             }
+<<<<<<< HEAD
+=======
 
+>>>>>>> d853df1d277cf12764b97d72306ee7dd3cb304a1
         }
         System.out.println();
         for (int i = 0; i < array.length; i++) {
