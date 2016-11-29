@@ -4,12 +4,6 @@ import java.util.Random;
 
 public class Arrays {
     public static void arrayHorizontalVertical() {
-        /*int a = 0;
-        for (int i = 2; i <=20; i++) {
-            if (i%2==0) {
-                a++;
-            }
-        }*/
         int[] array = new int[10];
         for (int i = 2, b = 0; i <=20 ; i++) {
             if (i%2==0) {

@@ -1,4 +1,4 @@
-package com.vyadrov.classwork.lesson_4;
+package com.vyadrov.classwork.lesson4;
 
 import com.vyadrov.app.utils.classwork.lesson4.MathFunc;
 import org.junit.Assert;
