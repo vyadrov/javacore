@@ -1,4 +1,4 @@
-package com.vyadrov.app.utils.runners.homework.homework.lesson7;
+package com.vyadrov.runners.homework.lesson7;
 
 import com.vyadrov.app.utils.homework.lesson7.Arrays;
 
