@@ -1,6 +1,7 @@
 package com.vyadrov.app.utils.homework.lesson7;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class Arrays {
     public static void arrayHorizontalVertical() {
@@ -98,6 +99,20 @@ public class Arrays {
             }
             System.out.println();
         }
+    }
+    public static void addElements() {
+        int sum = 0;
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            System.out.println("Enter any number & then enter 'exit' to find out sum of all numbers");
+            String s = scanner.nextLine();
+            if("exit".equals(s)){
+                break;
+            }
+            else{
+                sum = sum + Integer.valueOf(s);
+            }
+        }System.out.println("Sum of all numbers = " + sum);
     }
 
 }
