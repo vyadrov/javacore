@@ -27,4 +27,30 @@ public class Sorting {
         }
         return array;
     }
+    public static int[] selectionSortMinToMax(int[] array){
+        System.out.println("Array after Selection-Sorting from Max value to Min:");
+        for (int i = 0; i < array.length; i++) {
+            for (int j = i + 1; j < array.length; j++) {
+                if (array[j] < array[i]) {
+                    int temp = array[j];
+                    array[j] = array[i];
+                    array[i] = temp;
+                }
+            }
+        }
+        return array;
+    }
+    public static int[] selectionSortMaxToMin(int[] array){
+        System.out.println("Array after Selection-Sorting from Max value to Min:");
+        for (int i = 0; i < array.length; i++) {
+            for (int j = i + 1; j < array.length; j++) {
+                if (array[j] > array[i]) {
+                    int temp = array[j];
+                    array[j] = array[i];
+                    array[i] = temp;
+                }
+            }
+        }
+        return array;
+    }
 }
