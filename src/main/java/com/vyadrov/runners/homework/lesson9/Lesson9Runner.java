@@ -5,6 +5,6 @@ import com.vyadrov.app.utils.homework.lesson9.Sorting;
 
 public class Lesson9Runner {
     public static void main(String[] args) {
-        
+
     }
 }
