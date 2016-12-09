@@ -5,6 +5,24 @@ import com.vyadrov.app.utils.homework.lesson10.Palindroms;
 import java.util.Scanner;
 
 public class Lesson10Runner {
+    public static void runnerPalindromeFirstMethod(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please, enter your word:");
+        String word = scanner.nextLine();
+        Palindroms.palindromeByCharAt(word);
+    }
+    public static void runnerPalindromeSecondMethod(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please, enter your word:");
+        String word = scanner.nextLine();
+        Palindroms.palindromeByReverse(word);
+    }
+    public static void runnerPalindromeThirdMethod(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please, enter your word:");
+        String word = scanner.nextLine();
+        Palindroms.palindromeByCheckingFromStartToEnd(word);
+    }
     public static void main(String[] args) {
         int number;
         do {
@@ -17,13 +35,13 @@ public class Lesson10Runner {
             int numberOfTask = scanner.nextInt();
             switch (numberOfTask) {
                 case 1:
-                    Palindroms.palindromeFirstMethod();
+                    runnerPalindromeFirstMethod();
                     break;
                 case 2:
-                    Palindroms.palindromeSecondMethod();
+                    runnerPalindromeSecondMethod();
                     break;
                 case 3:
-                    Palindroms.palindromeThirdMethod();
+                    runnerPalindromeThirdMethod();
                     break;
                 default:
                     System.out.println("You have made incorrect choice.");
