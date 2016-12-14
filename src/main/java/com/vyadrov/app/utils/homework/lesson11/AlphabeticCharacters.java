@@ -17,9 +17,6 @@ public class AlphabeticCharacters {
             if ((charArray[i] > 64 && charArray[i] < 91) || (charArray[i] > 96 && charArray[i] < 123 )) {
                 System.out.print(charArray[i] + ", ");
             }
-
         }
-
-
     }
 }

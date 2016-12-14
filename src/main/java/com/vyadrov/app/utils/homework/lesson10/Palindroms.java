@@ -1,7 +1,5 @@
 package com.vyadrov.app.utils.homework.lesson10;
 
-import java.util.Scanner;
-
 public class Palindroms {
     public static void palindromeByCharAt(String word) {
         String reverse = "";
@@ -14,13 +12,15 @@ public class Palindroms {
             System.out.println("Your world is NOT Palindrome");
         }
     }
-    public static void palindromeByReverse(String word) {
+    public static boolean palindromeByReverse(String word) {
         StringBuffer buffer = new StringBuffer(word);
         buffer.reverse();
         if (buffer.toString().equals(word)) {
             System.out.println("Your world is Palindrome");
+            return true;
         } else {
             System.out.println("Your world is NOT Palindrome");
+            return false;
         }
     }
     public static boolean palindromeByCheckingFromStartToEnd(String word) {
