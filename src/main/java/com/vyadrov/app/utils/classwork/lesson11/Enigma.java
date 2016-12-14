@@ -13,9 +13,7 @@ public class Enigma {
                     stringBuilder.setCharAt(i, cypherText.charAt(j));
                     break;
                 }
-
             }
-
         } System.out.println(stringBuilder.toString());
         return stringBuilder.toString();
     }
