@@ -13,10 +13,15 @@ public class AlphabeticCharacters {
         String[] splittedStringArray = inputString.split(inputSpliter);
         char[] charArray = new char[splittedStringArray.length];
         for (int i = 0; i < splittedStringArray.length; i++) {
-            charArray[i] = splittedStringArray[i].charAt(0);
-            if ((charArray[i] > 64 && charArray[i] < 91) || (charArray[i] > 96 && charArray[i] < 123 )) {
-                System.out.print(charArray[i] + ", ");
+            for(int k = 0; k < splittedStringArray[i].length(); k++) {
+                charArray[i] = splittedStringArray[i].charAt(k);
+
+                if ((charArray[i] > 64 && charArray[i] < 91) || (charArray[i] > 96 && charArray[i] < 123)) {
+
+                    System.out.print(charArray[i]);
+                }
             }
+            System.out.print(", ");
         }
     }
 }

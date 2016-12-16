@@ -1,7 +1,5 @@
 package com.vyadrov.app.utils.homework.lesson12;
 
-import com.vyadrov.app.utils.homework.lesson10.Palindroms;
-import com.vyadrov.app.utils.homework.lesson9.ArrayPrint;
 import com.vyadrov.app.utils.homework.lesson9.Sorting;
 
 import java.io.*;
@@ -9,7 +7,7 @@ import java.io.*;
 public class ReadWriteFile {
     public static void readWrite() {
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("/home/vyadrov/Lesson12.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("D:\\Text.txt"));
             String line;
             StringBuilder str1 = new StringBuilder();
             String s1 = reader.readLine();
@@ -48,7 +46,7 @@ public class ReadWriteFile {
                 }
             }
 
-            BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("/home/vyadrov/output.txt")));
+            BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("D:\\output.txt")));
 
             writer.append(result1);
             writer.newLine();
