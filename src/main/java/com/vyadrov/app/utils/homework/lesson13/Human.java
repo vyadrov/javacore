@@ -20,7 +20,7 @@ public class Human {
             System.out.println("Age invalid");
         } else {
             this.age = age;
-            System.out.println("New age setted");
+            System.out.println("New age setted as: " + age);
         }
     }
 }

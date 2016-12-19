@@ -16,7 +16,7 @@ public class WhiteCollar extends Human {
     }
 
     public void setNameCompany(String nameCompany) {
-        Pattern pattern = Pattern.compile("([a-zA-Z\\s\\u002C\\u002D]{0,})");
+        Pattern pattern = Pattern.compile("([a-zA-Z\\s\\u002C\\u002D]*)");
         Matcher match = pattern.matcher(nameCompany);
         if (match.matches() == true) {
             this.nameCompany = nameCompany;
