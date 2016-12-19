@@ -16,11 +16,11 @@ public class Human {
         return age;
     }
     public void setAge(int age) {
-        if (age <= 1 || age >= 120) {
-            System.out.println("Age invalid");
-        } else {
+        if (age >= 1 && age <= 120) {
             this.age = age;
             System.out.println("New age setted as: " + age);
+        } else {
+            System.out.println("Age is invalid");
         }
     }
 }
