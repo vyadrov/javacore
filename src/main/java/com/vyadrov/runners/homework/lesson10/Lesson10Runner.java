@@ -4,7 +4,7 @@ import com.vyadrov.app.utils.homework.lesson10.Palindroms;
 
 import java.util.Scanner;
 
-public class Lesson10Runner {
+public enum  Lesson10Runner { ONE, TWO, THREE, ZERO;
     public static void runnerPalindromeFirstMethod(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please, enter your word:");
@@ -24,28 +24,31 @@ public class Lesson10Runner {
         Palindroms.palindromeByCheckingFromStartToEnd(word);
     }
     public static void main(String[] args) {
-        int number;
-        do {
-            System.out.println("Hi! Please, enter the number of Method which will determine String is palindrome OR Not: " + "\n" +
-                    "1. First Method." + "\n" +
-                    "2. Second Method." + "\n" +
-                    "3. Third Method." + "\n" +
-                    "0. Exit.\n");
+        try {
+            System.out.println("Hi! Please, enter the number of Method by word (NOT NUMBER) which will determine String is palindrome OR Not: " + "\n" +
+                    "ONE. First Method." + "\n" +
+                    "TWO. Second Method." + "\n" +
+                    "THREE. Third Method." + "\n" +
+                    "ZERO. Exit.\n");
             Scanner scanner = new Scanner(System.in);
-            int numberOfTask = scanner.nextInt();
-            switch (numberOfTask) {
-                case 1:
+            String numberOfTask = scanner.nextLine();
+            //String name = "One";
+            Lesson10Runner lesson10Runner = Lesson10Runner.valueOf(numberOfTask);
+            switch (lesson10Runner) {
+                case ONE:
                     runnerPalindromeFirstMethod();
                     break;
-                case 2:
+                /*case 2:
                     runnerPalindromeSecondMethod();
                     break;
                 case 3:
                     runnerPalindromeThirdMethod();
-                    break;
+                    break;*/
                 default:
                     System.out.println("You have made incorrect choice.");
-            } number = numberOfTask;
-        } while (number !=0);
+            } //number = numberOfTask;
+        } catch (IllegalArgumentException e) {
+            System.out.println("Invalid");
+        }
     }
 }
