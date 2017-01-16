@@ -11,9 +11,9 @@ public class WhiteCollar extends Human {
         this.nameCompany = companyName;
     }
 
-    public String getNameCompany() {
+    /*public String getNameCompany() {
         return nameCompany;
-    }
+    }*/
 
     public void setNameCompany(String nameCompany) {
         Pattern pattern = Pattern.compile("([a-zA-Z\\s\\u002C\\u002D]*)");

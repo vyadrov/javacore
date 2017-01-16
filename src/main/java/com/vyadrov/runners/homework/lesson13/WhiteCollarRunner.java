@@ -11,6 +11,6 @@ public class WhiteCollarRunner {
         Scanner scanner = new Scanner(System.in);
         String nameCompany = scanner.nextLine();
         whiteCollar.setNameCompany(nameCompany);
-        System.out.println(whiteCollar.getNameCompany());
+        //System.out.println(whiteCollar.getNameCompany());
     }
 }
