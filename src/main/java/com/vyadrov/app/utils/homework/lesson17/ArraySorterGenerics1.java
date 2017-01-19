@@ -1,27 +1,32 @@
 package com.vyadrov.app.utils.homework.lesson17;
-public class ArraySorterGenerics1<T> {
-    private T[] array;
-    public ArraySorterGenerics1(T[] array) {
-        this.array = array;
+public class ArraySorterGenerics1<T extends Number>{
+    private T[] t;
+    public ArraySorterGenerics1(T[] t) {
+        this.t = t;
     }
-    public <T extends Comparable<T>, Number> T[] sort(T[] array) {
+    public void unStaticSort() {
+        this.t = staticSort(t);
+    }
+    public static <T extends Number> T[] staticSort(T[] array) {
         T temp;
-        System.out.println("Bubble sort of the array from Min to Max number: ");
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length - 1; j++) {
-                if (array[j+ 1].compareTo(array[j]) < 0) {
+                if (array[j+ 1].doubleValue() > (array[j].doubleValue())) {
                     temp = array[j];
                     array[j] = array[j+1];
                     array[j+1] = temp;
                 }
             }
         }
+        System.out.println("\n" + "Bubble sort from Max to Min:");
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
         return array;
     }
 
     public T[] getArray() {
-        System.out.println(array);
-        return array;
+        return t;
     }
 
 }
