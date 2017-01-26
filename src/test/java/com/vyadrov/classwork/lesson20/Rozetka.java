@@ -1,7 +1,6 @@
 package com.vyadrov.classwork.lesson20;
 
 
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebElement;
@@ -13,6 +12,7 @@ public class Rozetka {
 
     private FirefoxDriver driver;
     private String baseUrl = "http://rozetka.com.ua/";
+    //private String baseUrl2 = "http://www.fast-torrent.ru/";
     WebElement webElement;
 
     @Before
